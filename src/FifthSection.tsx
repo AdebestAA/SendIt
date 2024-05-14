@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from 'react'
 import "./fifthSection.css"
 import  dataz  from './data'
 const FifthSection = () => {
-    const [data,setData] = useState<{id:number,name:string,text:string}[]>(dataz)
+    const [data] = useState<{id:number,name:string,text:string}[]>(dataz)
     // const [widthOfCards,setWidthOfCards] = useState(0)
     // const [numberInMeddle,setNumberInMiddle] = useState(0)
     const [translateValue,setTranslateValue] = useState(0)

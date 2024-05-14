@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react'
+import  { useEffect, useRef } from 'react'
 import './index.css'
 import gsap from 'gsap'
 
@@ -10,7 +10,7 @@ const secondSection = useRef<HTMLElement>(null)
 
   useEffect(()=>{
 
-    let firstSectionEl =firstSection.current as HTMLElement
+   
     const firstSectionCoverEl = firstSectionCover.current  as HTMLElement
   
    gsap.fromTo(firstSectionCoverEl,{top:"0%",},{top:"100%",duration:5,ease:"power3.inOut"})

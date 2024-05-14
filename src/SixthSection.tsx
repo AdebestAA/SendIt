@@ -1,4 +1,4 @@
-import React from 'react'
+
 import "./sixthSection.css"
 
 const SixthSection = () => {
