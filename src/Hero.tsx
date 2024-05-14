@@ -14,7 +14,7 @@ const secondSection = useRef<HTMLElement>(null)
     const firstSectionCoverEl = firstSectionCover.current  as HTMLElement
   
    gsap.fromTo(firstSectionCoverEl,{top:"0%",},{top:"100%",duration:5,ease:"power3.inOut"})
-
+  gsap.fromTo(secondSection.current,{translateX:"100%",scale:"0.2"},{translateX:"0%",scale:"1",duration:2,ease:"power2.inOut"})
 const handleAnimation = ()=> {
 const secondSectionEl = secondSection.current as HTMLElement
 console.log("scroll");
