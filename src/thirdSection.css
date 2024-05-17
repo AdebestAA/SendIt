@@ -97,6 +97,7 @@ height: 40px;
     /* margin-top: 20px; */
     /* padding-block: 2%; */
     padding-inline: 4%;
+    margin-block: 10px;
     /* animation-name: scroll-animation; */
     animation-duration: 5s;
     animation-timing-function: linear;
@@ -239,12 +240,13 @@ height: 20px;
             padding: 12px;
             border-radius: 5px;
             margin-top: 10px;
+
         }
     
         .card h3 {
-            font-size: 1.5rem;
+            font-size: 1.3rem;
         }
-    
+ 
         .card button {
         width: 80%;
         background-color: transparent;
@@ -252,7 +254,7 @@ height: 20px;
         font-weight: 500;
         display: flex;
         align-items: center;
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         /* background-color: yellow; */
         }
         .card aside{

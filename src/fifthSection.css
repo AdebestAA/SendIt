@@ -5,7 +5,7 @@
         --TEXTCOLOR: #000000;
         --SECONDSCOLOR: #fefcef;
     }
-  
+ 
 
 .testimonies-cards-container{
     display: flex;
@@ -57,6 +57,7 @@ background: var(--BGCOLORSECONDSECTION);
 
 .image {
     width: 100px;
+    object-fit:cover;
     border-radius: 50%;
     height: 100px;
     width: 100px;
