@@ -242,19 +242,23 @@ height: 20px;
             margin-top: 10px;
 
         }
-    
+        .card aside div {
+            align-self: center;
+            font-size: 0.3rem;
+        
+        }
         .card h3 {
-            font-size: 1.3rem;
+            font-size: 1rem;
         }
  
         .card button {
         width: 80%;
         background-color: transparent;
         border: none;
-        font-weight: 500;
+        font-weight: 300;
         display: flex;
         align-items: center;
-        font-size: 1.3rem;
+        font-size: 1rem;
         /* background-color: yellow; */
         }
         .card aside{
